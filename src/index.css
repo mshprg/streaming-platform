@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  font-size: 14px;
+}
+
+.svg {
+  fill: black;
+}
+
+* {
+  font-family: 'Onest', sans-serif;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-1);
+  border-radius: 4px;
+}
+
+p {
+  margin: 0;
+}
