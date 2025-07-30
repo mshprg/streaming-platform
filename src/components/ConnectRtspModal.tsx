@@ -99,6 +99,7 @@ export default function ConnectRtspModal() {
 							title="Подключить устройство"
 							aria-label="Нажмите, чтобы подключиться к конференции"
 							loading={loadingButton}
+							className={stylesStreamModal.input}
 						>
 							Подключить устройство
 						</Button>
@@ -107,6 +108,7 @@ export default function ConnectRtspModal() {
 							title="Закрыть окно"
 							aria-label="Закрыть модальное окно"
 							btnStyle={ButtonStylesEnum.RED}
+							className={stylesStreamModal.input}
 						>
 							Закрыть
 						</Button>

@@ -17,7 +17,7 @@ const RoomPage = () => {
 	useEffect(() => {
 		const fetchToken = async () => {
 			try {
-				console.log(roomId);
+
 				const response = await getToken({room: roomId, identity: 'user-' + Date.now(),});
 
 				setToken(response.token);
